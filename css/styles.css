@@ -722,7 +722,7 @@ ol {
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0, 04em;
+  letter-spacing: 0.04em;
   color: var(--lightslate);
 }
 .modal-form-svg {
@@ -741,4 +741,25 @@ ol {
   line-height: 14px;
   letter-spacing: 0.48px;
   margin-bottom: 4px;
+}
+.modal-form-comment-container {
+  margin-bottom: 16px;
+}
+.modal-form-textarea {
+  width: 100%;
+  height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 8px 16px;
+  outline: transparent;
+  resize: none;
+  transition: border-color var(--anim) cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form-textarea:focus {
+  border-color: var(--bluecolor);
 }
