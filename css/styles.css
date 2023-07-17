@@ -783,7 +783,8 @@ textarea::placeholder {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  border-radius: 2px;
 }
-.checkbox-inp:checked + .checkbox-label-span {
+.checkbox-inp[type="checkbox"]:checked {
   border: none;
 }
