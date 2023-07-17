@@ -734,6 +734,7 @@ ol {
   color: var(--classic-white-color);
 }
 .modal-form {
+  gap: 24px;
 }
 .modal-form-text {
   color: var(--dark-blue-color);
