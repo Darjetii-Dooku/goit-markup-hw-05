@@ -784,11 +784,12 @@ textarea::placeholder {
   justify-content: center;
   fill: transparent;
   border-radius: 2px;
+  margin-right: 8px;
 }
-input[type="checkbox"]:checked + .checkbox-label .check-svg {
+.checkbox-link:checked + .checkbox-label .checkbox-label-span {
   border: none;
-  fill: var(--classic-white-color);
-  background-color: var(--bluecolor);
+  stroke: var(--whitecolor);
+  background-color: var(--link-color);
 }
 .modal-form-link {
   color: var(--bluecolor);
