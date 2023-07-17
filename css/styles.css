@@ -788,7 +788,7 @@ textarea::placeholder {
 }
 .checkbox-link:checked + .checkbox-label .checkbox-label-span {
   border: none;
-  stroke: var(--whitecolor);
+  fill: var(--whitecolor);
   background-color: var(--link-color);
 }
 .modal-form-link {
