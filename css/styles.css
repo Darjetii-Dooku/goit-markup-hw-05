@@ -486,7 +486,56 @@ ol {
 .social-media-link-footer:focus {
   background-color: var(--greencolor);
 }
-
+.footer-email-container {
+  margin-left: 80px;
+}
+.footer-email-text {
+  color: var(--classic-white-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-bottom: 16px;
+}
+.footer-email-input {
+  width: 264px;
+  background-color: inherit;
+  border-radius: 4px;
+  border: 1px solid var(--classic-white-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  height: 40px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  color: var(--classic-white-color);
+  padding-bottom: 0;
+  padding-top: 0;
+  line-height: 24px;
+}
+.footer-email-input::placeholder {
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+.footer-subscribe-button {
+  background-color: var(--bluecolor);
+  color: var(--classic-white-color);
+  text-align: center;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  border: none;
+  border-radius: 4px;
+  width: 165px;
+  height: 40px;
+  padding: 8px 24px;
+}
 /* Portfolio */
 .main-section {
   padding: 96px 0 120px 0;
@@ -805,7 +854,7 @@ textarea::placeholder {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   background-color: var(--bluecolor);
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
