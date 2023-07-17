@@ -488,8 +488,21 @@
               class="modal-form-textarea"
             ></textarea>
           </div>
-          <div c>
-            <input type="checkbox" name="user-privacy" id="user-privacy" />
+          <div class="checkbox-container">
+            <input
+              type="checkbox"
+              class="visually-hidden checkbox-inp"
+              name="user-privacy"
+              value="true"
+              id="user-privacy"
+            />
+            <label class="checkbox-label" for="user-privacy">
+              <span class="checkbox-label-span"
+                ><svg class="" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checkbox"></use>
+                </svg> </span
+              >I accept the terms and conditions of the</label
+            >
           </div>
         </form>
       </div>

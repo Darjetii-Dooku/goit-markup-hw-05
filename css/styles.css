@@ -749,6 +749,10 @@ ol {
   outline: transparent;
   resize: none;
   transition: border-color var(--anim) cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
 }
 .modal-form-textarea:focus {
   border-color: var(--bluecolor);
@@ -758,4 +762,28 @@ textarea::placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+}
+.checkbox-container {
+  margin-bottom: 24px;
+}
+.checkbox-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--lightslate);
+}
+.checkbox-label-span {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+.checkbox-inp:checked + .checkbox-label-span {
+  border: none;
 }
