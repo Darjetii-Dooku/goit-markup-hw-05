@@ -491,9 +491,9 @@ ol {
 }
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 .footer-form-label {
-  gap: 24px;
 }
 .footer-email-text {
   color: var(--classic-white-color);
@@ -543,6 +543,11 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-subscribe-button:focus,
+.footer-subscribe-button:hover {
+  background-color: var(--link-color);
 }
 .footer-subscribe-svg {
   margin-left: 16px;
@@ -734,7 +739,6 @@ ol {
   color: var(--classic-white-color);
 }
 .modal-form {
-  gap: 24px;
 }
 .modal-form-text {
   color: var(--dark-blue-color);
