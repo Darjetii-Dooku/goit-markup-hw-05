@@ -785,6 +785,11 @@ textarea::placeholder {
   fill: transparent;
   border-radius: 2px;
 }
-.checkbox-inp[type="checkbox"]:checked {
+input[type="checkbox"]:checked + .checkbox-label .check-svg {
   border: none;
+  fill: var(--classic-white-color);
+  background-color: var(--bluecolor);
+}
+.modal-form-link {
+  color: var(--bluecolor);
 }

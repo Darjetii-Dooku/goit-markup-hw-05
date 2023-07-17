@@ -482,8 +482,6 @@
             <textarea
               name="user-comment"
               id="user-comment"
-              cols="30"
-              rows="10"
               placeholder="Text input"
               class="modal-form-textarea"
             ></textarea>
@@ -491,18 +489,20 @@
           <div class="checkbox-container">
             <input
               type="checkbox"
-              class="visually-hidden checkbox-inp"
+              class="visually-hidden"
               name="user-privacy"
               value="true"
               id="user-privacy"
             />
-            <label class="checkbox-label" for="user-privacy">
-              <span class="checkbox-label-span"
-                ><svg class="" width="10" height="8">
+            <label class="checkbox-label" for="user-privacy"
+              ><span class="checkbox-label-span">
+                <svg class="check-svg" width="10" height="8">
                   <use href="./images/icons.svg#icon-checkbox"></use>
-                </svg> </span
-              >I accept the terms and conditions of the</label
-            >
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="modal-form-link" href="">Privacy Policy</a>
+            </label>
           </div>
         </form>
       </div>
