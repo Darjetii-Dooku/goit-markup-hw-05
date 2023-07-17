@@ -489,6 +489,12 @@ ol {
 .footer-email-container {
   margin-left: 80px;
 }
+.footer-form {
+  display: flex;
+}
+.footer-form-label {
+  gap: 24px;
+}
 .footer-email-text {
   color: var(--classic-white-color);
   font-family: Roboto;
@@ -496,45 +502,50 @@ ol {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
 .footer-email-input {
   width: 264px;
-  background-color: inherit;
+  background-color: transparent;
   border-radius: 4px;
   border: 1px solid var(--classic-white-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   height: 40px;
   padding-bottom: 8px;
   padding-left: 16px;
   color: var(--classic-white-color);
   padding-bottom: 0;
   padding-top: 0;
-  line-height: 24px;
+  line-height: 1.5;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 .footer-email-input::placeholder {
   font-family: Roboto;
-  font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  letter-spacing: 0.05em;
 }
 .footer-subscribe-button {
   background-color: var(--bluecolor);
   color: var(--classic-white-color);
   text-align: center;
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   font-style: normal;
   line-height: 1.5;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   border: none;
   border-radius: 4px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
-  padding: 8px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-subscribe-svg {
+  margin-left: 16px;
 }
 /* Portfolio */
 .main-section {
