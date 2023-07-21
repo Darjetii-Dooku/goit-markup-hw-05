@@ -63,10 +63,30 @@ ol {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+/* Base styles for small devices */
 .container {
+  min-width: 320px;
+  max-width: 428px;
   margin: 0 auto;
-  width: 1158px;
-  padding: 0 15px;
+  /* padding: 0 15px; */
+  /* width: 1158px; */
+  outline: 2px solid red;
+  outline-offset: -2px;
+  padding: 0 16px;
+}
+
+/* Tablet screen */
+/* @media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+} */
+/* Desktop screen */
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
 }
 .nav-menu {
   display: flex;
@@ -293,8 +313,14 @@ ol {
 }
 /* 4 section */
 .team-cards-section {
-  padding: 120px 0;
+  padding: 96px 0;
   background-color: var(--whitecolor);
+  margin-bottom: 96px;
+}
+@media only screen and (min-width: 1200px) {
+  .team-cards-section {
+    padding: 120px 0;
+  }
 }
 .team-cards-section-title {
   font-family: "Roboto";
@@ -309,8 +335,8 @@ ol {
   margin-bottom: 72px;
 }
 .team-cards {
-  display: flex;
-  gap: 24px;
+  /* display: flex;
+  gap: 24px; */
 }
 .social-media-list {
   display: flex;
@@ -357,11 +383,14 @@ ol {
 }
 .team-cards-item {
   background-color: var(--classic-white-color);
-  flex-basis: 264px;
+  /* flex-basis: 264px; */
+  margin: 0 auto;
+  max-width: 264px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  margin-bottom: 72px;
 }
 .team-cards-text-item {
   display: block;
